@@ -1,16 +1,16 @@
 ## Hi there 👋
 
-<!--
-**bagustilas/bagustilas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import SoftwareDeveloper from 'bagustilas';
+import { Languages, Frameworks } from 'bagustilas/skills';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Bagus Tilas Hidayatullah';
+  title    = 'Software Developer';
+  location = 'Pekalongan, IDN';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'PHP', ...Languages];
+  databases  = ['MySQL', 'Supabase', 'Firebase'];
+  frameworks = ['CI', 'React', 'Next.js', 'Laravel', ...Frameworks];
+}
