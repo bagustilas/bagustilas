@@ -4,7 +4,7 @@ import { Languages, Frameworks } from 'bagustilas/skills';
 
 class Bio extends SoftwareDeveloper {
   name     = 'Bagus Tilas Hidayatullah';
-  title    = 'Software Developer';
+  title    = 'Software Engineer';
   location = 'Pekalongan, IDN';
 }
 
